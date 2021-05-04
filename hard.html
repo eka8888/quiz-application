@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="easy.css">
+    <script src="hard.js" defer></script>
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="container-fluid quizContainer">
+        <h1 class="userName">კითხვა </h1>
+
+        <div class="progress1">
+            <div class="progressBar">
+                <h3 id="total">1 out of 10</h3>
+                <progress class="progress is-warning" value="0" max="100"></progress>
+            </div>
+            <div id="time">
+                <h5>დარჩენილი დრო</h6>
+                    <h6 id="countdown">30</h6>
+            </div>
+        </div>
+
+        <p id="questionText" value=''>შეკითხვა 1</p>
+
+        <form name="quiz">
+            <div class="answerInputs">
+                <label>
+                    <input type="radio" class="radio1"  name="answer" value='0' />
+                    <span id="firstAnswer">პირველი პასუხი</span>
+                </label>
+                <br>
+                <label>
+                    <input type="radio" class="radio" name="answer" value='1' />
+                    <span id="secondAnswer">მეორე პასუხი</span>
+                </label>
+                <br>
+                <label>
+                    <input type="radio" class="radio" name="answer" value='2' />
+                    <span id="thirdAnswer">მესამე პასუხი</span>
+                </label>
+                <br>
+                <label>
+                    <input type="radio" class="radio" name="answer" value='3' />
+                    <span id="fourthAnswer">მეოთხე პასუხი</span>
+                </label>
+                <br>
+            </div>
+        </form>
+        <button type="button" class="btn " id="nextBtn">შემდეგი</button>
+
+    </div>
+
+
+    <!--ლიდერბორდი-->
+    <div class="container leaderboard " id="resultArea" hidden>
+        <table>
+            <thead>
+                <tr class="leaderboard">
+                    <th>მომხმარებლის სახელი,გვარი</th>
+                    <th>ჯგუფის კოდი</th>
+                    <th>ქვიზის დონე</th>
+                    <th>მოპოვებული ქულა</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="leaderboard">
+                    <td id="userName1"></td>
+                    <td id="groupCode"></td>
+                    <td id="quizLevel"></td>
+                    <td id="totalScore"></td>
+
+
+                </tr>
+            </tbody>
+        </table>
+
+        <button class="btn2"><a href="index.html">თავიდან დაწყება</a></button>
+
+    </div>
+
+</body>
+
+</html>

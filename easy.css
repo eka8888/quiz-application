@@ -1,0 +1,371 @@
+body{
+    color:#fff;
+}
+
+.userName{
+    display:flex;
+    margin: 0.5rem 0rem 0.8rem 34rem;
+    font-size: 2.5rem;
+}
+
+.progress{
+    margin-left: 18rem;
+    width:14rem;
+    height:2.5rem;
+    border: 0.2rem solid rgba(116, 211, 127, 0.8);
+    margin-top:2rem;
+    border-radius:50px;
+    overflow: hidden;   
+}
+
+#total{
+    margin-bottom: 0.5rem;
+    margin-left: 18rem;
+}
+.progress1{
+    display: inline-flex;    
+}
+
+#time{
+    margin-left: 29rem;
+    width:7rem;
+    height:2.5rem;
+    background:  rgb(116, 211, 127, 0.8);
+    margin-bottom:2rem;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    
+}
+
+#countdown{
+     height: 2.2rem;
+     width: 2rem;
+     background: #fff;
+     color:black ;
+     border: 1px solid #b0cdd8;
+     border-radius: 15px 7px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+   }
+
+#questionText{
+    font-size: 1.4rem;
+    margin: 2rem 22rem 2rem 18rem;
+}
+
+label{
+    display:flex;
+    margin-left: 18rem;
+    margin-bottom: 0.8rem;
+    width:50%;
+    border-radius:4px;
+    background-color: rgb(78, 147, 250, 0.5);
+    font-size: 1.1rem;
+    color:black;
+    min-width: 50rem;
+    min-height: 3.5rem;   
+}
+
+label:hover{
+    cursor: pointer;
+    background:rgb(15, 56, 143); 
+    box-shadow:0 0.4rem 0.4rem 0 rgba(15, 56, 143, 0.5);
+}
+
+input {
+    visibility:hidden;
+}
+
+#nextBtn{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-left: 18rem;
+    background: rgb(116, 211, 127, 0.8);
+    margin-top:2rem;
+    font-size: 1.2rem;
+    min-width:8rem;
+    min-height:2.5rem;
+}
+
+.leaderboard{
+    max-width: 30rem;
+    margin: 100px auto 0;
+    position: relative;
+    color: black;
+}
+
+
+table{
+    background-color: rgba(78, 147, 250, 0.5);
+    border: 0.2rem solid rgb(116, 211, 127, 0.8);
+    min-height: 10rem;  
+}
+
+
+.btn2{
+    margin-top:2rem;
+    margin-left:12rem;
+    min-width: 6rem;
+    min-height: 2rem;
+    background:  rgb(116, 211, 127, 0.8);
+}
+
+a:link {
+    text-decoration: none;
+    color: black;
+  }
+
+  /* responsive*/
+
+  @media (max-width: 1200px) {
+    .userName{
+        display:flex;
+        margin: 0.5rem 0rem 0.8rem 30rem;
+        font-size: 2.3rem;
+    } 
+    .progress{
+        margin-left: 12rem;
+        width:13rem;
+        height:2.3rem;  
+    }
+    #total{
+        margin-bottom: 0.5rem;
+        margin-left: 12rem;
+    }
+    .progress1{
+        display: inline-flex;    
+    }
+    #time{
+        margin-left: 26rem;
+        width:6rem;
+        height:2.3rem; 
+    }
+    #questionText{
+        font-size: 1.3rem;
+        margin-left:12rem;
+        margin-right: 16rem;
+    } 
+    label{
+        display:flex;
+        margin-left: 12rem;
+        margin-bottom: 0.8rem;
+        font-size: 1rem;
+        min-width: 45rem;
+        min-height: 3.3rem;   
+    }
+    #nextBtn{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        margin-left: 12rem;
+        font-size: 1rem;
+        min-width:7rem;
+        min-height:2.3rem;
+    }
+    .leaderboard{
+        max-width: 28rem;
+        margin: 100px auto 0;
+        position: relative;
+        color: black;
+    }
+    table{
+        min-height: 10rem;  
+    }
+    
+    .btn2{
+        margin-top:2rem;
+        margin-left:11rem;
+        min-width: 5.5rem;
+        min-height: 2rem;
+    }
+    }
+
+    @media (max-width: 992px) {
+        .userName{
+            display:flex;
+            margin: 0.5rem 0rem 0.8rem 25rem;
+            font-size: 2rem;
+        } 
+        .progress{
+            margin-left: 8rem;
+            width:10rem;
+            height:2.1rem;  
+        }
+        #total{
+            margin-bottom: 0.5rem;
+            margin-left: 8rem;
+        }
+        .progress1{
+            display: inline-flex;    
+        }
+        #time{
+            margin-left: 22rem;
+            width:6rem;
+            height:2.3rem; 
+        }
+        #questionText{
+            font-size: 1rem;
+            margin-left: 8rem;
+            margin-right: 14rem;
+        } 
+        label{
+            display:flex;
+            margin-left: 8rem;
+            margin-bottom: 0.8rem;
+            font-size: 0.8rem;
+            min-width: 38rem;
+            min-height: 3.1rem;   
+        }
+        #nextBtn{
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            margin-left: 8rem;
+            font-size: 0.8rem;
+            min-width:6rem;
+            min-height:2.1rem;
+        }
+        .leaderboard{
+            max-width: 20rem;
+            margin-left:8rem;
+            position: relative;
+            color: black;
+        }
+        table{
+            min-height: 10rem;  
+        }
+        td{
+            text-align: center;
+        }
+        .btn2{
+            margin-top:2rem;
+            margin-left:12rem;
+            min-width: 5rem;
+            min-height: 2rem;
+        }
+        }
+
+    @media (max-width: 768px) {
+        .userName{
+            display:flex;
+            margin: 0.5rem 0rem 0.8rem 18rem;
+            font-size: 2rem;
+        } 
+        .progress{
+            margin-left: 3rem;
+            width:8rem;
+            height:2.1rem;  
+        }
+        #total{
+            margin-bottom: 0.5rem;
+            margin-left: 3rem;
+        }
+        .progress1{
+            display: inline-flex;    
+        }
+        #time{
+            margin-left: 18rem;
+            width:6rem;
+            height:2.3rem; 
+        }
+        #questionText{
+            font-size: 1rem;
+            margin-left:3rem;
+            margin-right: 9rem;
+        } 
+        label{
+            display:flex;
+            margin-left: 3rem;
+            margin-bottom: 0.8rem;
+            font-size: 0.8rem;
+            min-width: 32rem;
+            min-height: 3.1rem;   
+        }
+        #nextBtn{
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            margin-left: 3rem;
+            font-size: 0.8rem;
+            min-width:6rem;
+            min-height:2.1rem;
+        }
+        .leaderboard{
+            width: 10rem;
+            margin-left:0.5rem;
+            position: relative;
+           
+        }
+        table{
+            min-height: 10rem;    
+        }
+        .btn2{
+            margin-top:2rem;
+            margin-left:12rem;
+            min-width: 5rem;
+            min-height: 2rem;
+        }
+        }
+    @media (max-width: 576px) {
+            .userName{
+                display:flex;
+                margin: 0.5rem 0rem 0.8rem 8rem;
+                font-size: 1.6rem;
+            } 
+            .progress{
+                margin-left: 0.2rem;
+                width:6rem;
+                height:2rem;  
+            }
+            #total{
+                margin-bottom: 0.4rem;
+                margin-left: 0.2rem;
+            }
+            .progress1{
+                display: inline-flex;    
+            }
+            #time{
+                margin-left: 8rem;
+                width:6rem;
+                height:2.3rem; 
+            }
+            #questionText{
+                font-size: 1rem;
+                margin-left:0.2rem;
+                margin-right: 8rem;
+            } 
+            label{
+                display:flex;
+                margin-left: 0.2rem;
+                margin-bottom: 0.8rem;
+                font-size: 0.8rem;
+                min-width: 20rem;
+                min-height: 3rem;   
+            }
+            #nextBtn{
+                display: flex;
+                justify-content: center;
+                text-align: center;
+                margin-left: 0.2rem;
+                font-size: 0.8rem;
+                min-width:5rem;
+                min-height:2rem;
+            }
+            
+            table {
+                max-width: 30%;
+              }
+            
+            
+        
+            .btn2{
+                margin-top:2rem;
+                margin-left:12rem;
+                max-width: 5rem;
+                min-height: 2rem;
+            }
+            }

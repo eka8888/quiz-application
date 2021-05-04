@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="stylesheet" href="style.css">
+  <script src="easy.js" defer></script>
+  <script src="https://kit.fontawesome.com/afdd1e9901.js" crossorigin="anonymous"></script>
+  <title>Document</title>
+
+</head>
+
+
+
+<body>
+  <!--პირველი გვერდი-->
+  <div class="col container1" id="startArea">
+    <fieldset>
+      <form id="myForm" onsubmit="store()">
+
+        <label for="name"></label>
+        <input type="text" id="name" class="input" placeholder="სახელი">
+         
+        <label for="surname"></label>
+        <input type="text" id="surname" class="input" placeholder="გვარი">
+        
+        <label for="key"></label>
+        <input type="text" id="key" class="input" placeholder="ჯგუფის კოდი">
+        
+
+        <button type="submit" id="btnInsert" onclick="userInput();" class="input"><i class="fas fa-sign-in-alt"></i></button>
+      </form>
+    </fieldset>
+  </div>
+
+  <div class="col container2">
+    <div id="home" class="flex-column flex-center">
+      <a href="easy.html" class="btn1">Easy</a>
+      <a href="medium.html" class="btn1">Medium</a>
+      <a href="hard.html" class="btn1">Hard</a>
+    </div>
+  </div>
+
+
+
+</body>
+
+</html>
